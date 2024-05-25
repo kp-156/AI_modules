@@ -1,0 +1,136 @@
+CREATE TABLE Client (
+    id CHAR(36) PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255),
+    phone_number VARCHAR(15),
+    email_address VARCHAR(100)
+);
+
+CREATE TABLE Agent (
+    id CHAR(36) PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    role VARCHAR(50)
+);
+
+
+CREATE TABLE Interaction (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    client_id CHAR(36),
+    agent_id CHAR(36),
+    start_time TIMESTAMP,
+    end_time TIMESTAMP,
+    duration INT,
+    escalation BOOLEAN,
+    channel ENUM('call', 'chat', 'email'),
+    audio_file_path VARCHAR(255),
+    transcription_text_path VARCHAR(255),
+    customer_stated_purpose VARCHAR(255),
+    purpose_clarity_score INT,
+    overall_interaction_score INT,
+    overall_sentiment ENUM('positive', 'negative', 'neutral'),
+    std_opening_score INT,
+    std_closing_score INT,
+    ownership_score INT,
+    tone_score INT,
+    probing_verifications_score INT,
+    FOREIGN KEY (client_id) REFERENCES Client(id),
+    FOREIGN KEY (agent_id) REFERENCES Agent(id)
+);
+
+-- a trigger to calculate the duration
+DELIMITER //
+
+CREATE TRIGGER calculate_duration
+BEFORE INSERT ON Interaction
+FOR EACH ROW
+BEGIN
+    SET NEW.duration = TIMESTAMPDIFF(SECOND, NEW.start_time, NEW.end_time);
+END;
+//
+
+DELIMITER ;
+
+
+
+-- Sample data for each table:
+--Client:
+INSERT INTO Client (id, name, address, phone_number, email_address) VALUES
+(UUID(), 'John Doe', '123 Main St, Anytown, USA', '555-1234', 'john.doe@example.com'),
+(UUID(), 'Jane Smith', '456 Elm St, Othertown, USA', '555-5678', 'jane.smith@example.com'),
+(UUID(), 'Alice Johnson', '789 Oak St, Thistown, USA', '555-9101', 'alice.johnson@example.com'),
+(UUID(), 'Bob Brown', '101 Pine St, That Town, USA', '555-1213', 'bob.brown@example.com'),
+(UUID(), 'Charlie Davis', '111 Cedar St, Here Town, USA', '555-1415', 'charlie.davis@example.com'),
+(UUID(), 'Emma Wilson', '131 Maple St, Nowhere, USA', '555-1617', 'emma.wilson@example.com'),
+(UUID(), 'Frank Miller', '151 Walnut St, Somewhere, USA', '555-1819', 'frank.miller@example.com'),
+(UUID(), 'Grace Taylor', '171 Birch St, Everytown, USA', '555-2021', 'grace.taylor@example.com'),
+(UUID(), 'Henry Clark', '191 Elm St, Noway, USA', '555-2223', 'henry.clark@example.com'),
+(UUID(), 'Isabella Martinez', '212 Spruce St, Anywhere, USA', '555-2425', 'isabella.martinez@example.com'),
+(UUID(), 'Jacob Thompson', '234 Ash St, Nowtown, USA', '555-2627', 'jacob.thompson@example.com'),
+(UUID(), 'Katherine Lee', '256 Oak St, Anyplace, USA', '555-2829', 'katherine.lee@example.com'),
+(UUID(), 'Liam Garcia', '278 Pine St, Anywhereville, USA', '555-3031', 'liam.garcia@example.com'),
+(UUID(), 'Mia Hernandez', '300 Cedar St, Somewheresville, USA', '555-3233', 'mia.hernandez@example.com'),
+(UUID(), 'Noah Nguyen', '322 Maple St, Nowhereville, USA', '555-3435', 'noah.nguyen@example.com'),
+(UUID(), 'Olivia Perez', '344 Walnut St, Anyville, USA', '555-3637', 'olivia.perez@example.com'),
+(UUID(), 'Sophia Rivera', '366 Birch St, Everywhere, USA', '555-3839', 'sophia.rivera@example.com'),
+(UUID(), 'William Smith', '388 Elm St, Thisplace, USA', '555-4041', 'william.smith@example.com'),
+(UUID(), 'Ava Taylor', '400 Spruce St, Thatplace, USA', '555-4243', 'ava.taylor@example.com'),
+(UUID(), 'Alexander Davis', '422 Ash St, Hereplace, USA', '555-4445', 'alexander.davis@example.com');
+
+
+--Agent:
+INSERT INTO Agent (id, name, role) VALUES
+(UUID(), 'Sarah Wilson', 'Support'),
+(UUID(), 'Michael Brown', 'Sales'),
+(UUID(), 'Ella Martinez', 'Support'),
+(UUID(), 'James Thompson', 'Sales'),
+(UUID(), 'Sophia Lee', 'Support'),
+(UUID(), 'Oliver Garcia', 'Sales'),
+(UUID(), 'Emma Hernandez', 'Support'),
+(UUID(), 'Logan Nguyen', 'Sales'),
+(UUID(), 'Amelia Perez', 'Support'),
+(UUID(), 'Benjamin Rivera', 'Sales'),
+(UUID(), 'Chloe Smith', 'Support'),
+(UUID(), 'Daniel Taylor', 'Sales'),
+(UUID(), 'Emily Davis', 'Support'),
+(UUID(), 'Gabriel Clark', 'Sales'),
+(UUID(), 'Hannah Johnson', 'Support'),
+(UUID(), 'Isaac Wilson', 'Sales'),
+(UUID(), 'Lily Brown', 'Support'),
+(UUID(), 'Matthew Martinez', 'Sales'),
+(UUID(), 'Natalie Thompson', 'Support'),
+(UUID(), 'Olivia Lee', 'Sales');
+
+
+-- Interaction:
+INSERT INTO Interaction (client_id, agent_id, start_time, end_time, escalation, channel, audio_file_path, transcription_text_path, customer_stated_purpose, purpose_clarity_score, overall_interaction_score, overall_sentiment, std_opening_score, std_closing_score, ownership_score, tone_score, probing_verifications_score)
+SELECT
+    c.id AS client_id,
+    a.id AS agent_id,
+    '2024-05-22 14:00:00' + INTERVAL FLOOR(RAND() * 100) MINUTE AS start_time,
+    DATE_ADD('2024-05-22 14:00:00' + INTERVAL FLOOR(RAND() * 100) MINUTE, INTERVAL 20 SECOND) AS end_time,
+    RAND() > 0.5 AS escalation,
+    CASE FLOOR(RAND() * 3)
+        WHEN 0 THEN 'call'
+        WHEN 1 THEN 'chat'
+        ELSE 'email'
+    END AS channel,
+    CONCAT('/path/to/audio', c.id, '.mp3') AS audio_file_path,
+    CONCAT('/path/to/transcription', a.id, '.txt') AS transcription_text_path,
+    CONCAT('Purpose ', c.id) AS customer_stated_purpose,
+    FLOOR(RAND() * 10) AS purpose_clarity_score,
+    FLOOR(RAND() * 10) AS overall_interaction_score,
+    CASE FLOOR(RAND() * 3)
+        WHEN 0 THEN 'positive'
+        WHEN 1 THEN 'negative'
+        ELSE 'neutral'
+    END AS overall_sentiment,
+    FLOOR(RAND() * 10) AS std_opening_score,
+    FLOOR(RAND() * 10) AS std_closing_score,
+    FLOOR(RAND() * 10) AS ownership_score,
+    FLOOR(RAND() * 10) AS tone_score,
+    FLOOR(RAND() * 10) AS probing_verifications_score
+FROM
+    Client c
+    CROSS JOIN Agent a
+LIMIT 40;
+
