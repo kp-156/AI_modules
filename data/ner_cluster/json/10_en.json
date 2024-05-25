@@ -1,0 +1,59 @@
+{
+  "names": [
+    "My name is Aakash Sharma.",
+    "I go by Priya Gupta.",
+    "Call me Rahul Patel.",
+    "I'm known as Nisha Singh.",
+    "You can address me as Deepak Verma.",
+    "People call me Rajesh Kumar.",
+    "In formal situations, I introduce myself as Anjali Yadav.",
+    "I use Suresh Dubey as my name.",
+    "Radhika Tiwari is what they call me.",
+    "I am Anuj Thakur",
+    "Luke went to",
+    "Radhika enjoys",
+    "Andrew is laughing",
+    "Max woke up"
+  ],
+  "addresses": [
+    "I live at 123, Shivaji Nagar, Pune, Maharashtra.",
+    "My residence is at 45, Green Park, Delhi, India.",
+    "You can find me at 789, MG Road, Bangalore, Karnataka.",
+    "I'm located at 56A, Nehru Street, Chennai, Tamil Nadu.",
+    "My house is situated at 23, Gokhale Road, Mumbai, Maharashtra.",
+    "I stay at 12, Gandhi Lane, Kolkata, West Bengal.",
+    "The address you can reach me at is 34, Rajaji Nagar, Hyderabad, Telangana.",
+    "In formal documents, it's mentioned as 67, Vasant Vihar, Jaipur, Rajasthan.",
+    "You'll locate me at 89, Gandhi Nagar, Ahmedabad, Gujarat.",
+    "My current address is 345, Gandhi Chowk, Lucknow, Uttar Pradesh.",
+    "Ship the parcel to 345, Gandhi Chowk, Lucknow, Uttar Pradesh."
+  ],
+  "phone_number": [
+    "My phone number is 9123456789.",
+      "You can contact me on 9123456789.",
+      "Call me on 9123456789.",
+      "My contact number is 749248950.",
+      "Dial 919123456789 to reach me.",
+      "You can call me on 1234567890.",
+      "Reach me on 1238462840.",
+      "Contact me on 9123456789.",
+      "My number is 9123456789.",
+      "You can contact me on +912345678901."
+  ],
+  "services": [
+      "Book a complaint",
+      "Request for repair",
+      "Return or exchange",
+      "Track order",
+      "Order cancellation",
+      "Billing inquiry",
+      "Technical support",
+      "Warranty claim",
+      "Product registration",
+      "FAQ (Frequently Asked Questions)",
+      "Knowledge base",
+      "Live chat",
+      "Subscription management",
+      "Software updates"
+  ]
+}

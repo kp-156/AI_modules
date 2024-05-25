@@ -1,0 +1,132 @@
+Sentences,Keywords,Intent
+What are the top attractions to visit in New York City?,"['are', 'attractions', 'city', 'in', 'new', 'the', 'to', 'top', 'visit', 'what']",attraction_search
+How can I rent a car in Los Angeles for 5th May?,"['5th', 'angeles', 'can', 'car', 'for', 'how', 'in', 'los', 'may', 'rent']",car_rental
+Can you help me find a direct flight from New York to Paris for a business trip from 20th to 25th June?,"['from', 'to', '20th', '25th', 'business', 'can', 'direct', 'find', 'flight', 'for']",flight_search
+What are the best sightseeing spots in London?,"['are', 'best', 'in', 'london', 'sightseeing', 'spots', 'the', 'what']",attraction_search
+What are the must-visit attractions in Rome?,"['are', 'attractions', 'in', 'must', 'rome', 'the', 'visit', 'what']",attraction_search
+Looking for hotels in Amsterdam for 3rd July.,"['for', '3rd', 'amsterdam', 'hotels', 'in', 'july', 'looking']",hotel_search
+What are the must-visit attractions in Paris?,"['are', 'attractions', 'in', 'must', 'paris', 'the', 'visit', 'what']",attraction_search
+How can I rent a luxury car in Barcelona for a trip starting on 10th August?,"['10th', 'august', 'barcelona', 'can', 'car', 'for', 'how', 'in', 'luxury', 'on']",car_rental
+I need to book a domestic flight from Mumbai to Delhi for 15th September. Can you help?,"['to', '15th', 'book', 'can', 'delhi', 'domestic', 'flight', 'for', 'from', 'help']",flight_search
+How can I book an international flight from Sydney to Tokyo for 20th October?,"['20th', 'an', 'book', 'can', 'flight', 'for', 'from', 'how', 'international', 'october']",flight_search
+What are the best hotels in Paris for a stay from 10th to 15th March?,"['10th', '15th', 'are', 'best', 'for', 'from', 'hotels', 'in', 'march', 'paris']",hotel_search
+How can I book a flight to London for 2nd April?,"['2nd', 'april', 'book', 'can', 'flight', 'for', 'how', 'london', 'to']",flight_booking
+How can I rent a car in Paris for 10th June?,"['10th', 'can', 'car', 'for', 'how', 'in', 'june', 'paris', 'rent']",car_rental
+I need to book a flight to London for 3rd May. My name is John Doe.,"['to', '3rd', 'book', 'doe', 'flight', 'for', 'is', 'john', 'london', 'may']",flight_booking
+Can you suggest a good hotel in New York for a stay from 5th to 10th April? My phone number is 123-456-7890.,"['10th', '123', '456', '5th', '7890', 'april', 'can', 'for', 'from', 'good']",hotel_search
+Can you recommend some attractions to visit in Rome? My name is Jane Smith.,"['attractions', 'can', 'in', 'is', 'jane', 'my', 'name', 'recommend', 'rome', 'smith']",attraction_search
+How can I rent a car in Barcelona for 5th April? My phone number is 987-654-3210.,"['3210', '5th', '654', '987', 'april', 'barcelona', 'can', 'car', 'for', 'how']",car_rental
+Can you recommend some attractions to visit in London? My phone number is 111-222-3333.,"['111', '222', '3333', 'attractions', 'can', 'in', 'is', 'london', 'my', 'number']",attraction_search
+What are the best hotels in Paris for John's stay from 2023-03-10 to 2023-03-15 at 08:00?,"['03', '2023', '00', '08', '10', '15', 'are', 'at', 'best', 'for']",hotel_search
+How can Alice rent a car in Los Angeles for 2023-05-05 at 14:00?,"['05', '00', '14', '2023', 'alice', 'angeles', 'at', 'can', 'car', 'for']",car_rental
+Can you help Bob find a direct flight from New York to Paris for a business trip from 2023-06-20 to 2023-06-25 at 09:00?,"['06', '2023', 'from', 'to', '09', '20', '25', 'at', 'bob', 'business']",flight_search
+What are the top attractions to visit in Sydney?,"['are', 'attractions', 'in', 'sydney', 'the', 'to', 'top', 'visit', 'what']",attraction_search
+How can I rent a car in Los Angeles for 5th May?,"['5th', 'angeles', 'can', 'car', 'for', 'how', 'in', 'los', 'may', 'rent']",car_rental
+Can you help me find a direct flight from Singapore to Bali for a vacation from 10th to 15th July?,"['from', 'to', '10th', '15th', 'bali', 'can', 'direct', 'find', 'flight', 'for']",flight_search
+What are the best sightseeing spots in Tokyo?,"['are', 'best', 'in', 'sightseeing', 'spots', 'the', 'tokyo', 'what']",attraction_search
+What are the must-visit attractions in Barcelona?,"['are', 'attractions', 'barcelona', 'in', 'must', 'the', 'visit', 'what']",attraction_search
+"What are the best hotels in Paris for John's stay from 2023-03-10 to 2023-03-15 at 08:00? Also, what museums are near 123 Main Street?","['03', '2023', 'are', 'what', '08', '10', '123', '15', 'also', 'at']",hotel_search
+"How can Alice rent a car in Los Angeles for 2023-05-05 at 14:00? Also, what parks are near 456 Elm Street?","['05', '00', '14', '2023', '456', 'alice', 'also', 'angeles', 'are', 'at']",car_rental
+"Can you help Bob find a direct flight from New York to Paris for a business trip from 2023-06-20 to 2023-06-25 at 09:00? Also, what restaurants are near 789 Oak Avenue?","['06', '2023', 'from', 'to', '00', '09', '20', '25', 'are', 'at']",flight_search
+What hidden gems are there to explore off the beaten path in Kyoto?,"['are', 'beaten', 'explore', 'gems', 'hidden', 'in', 'kyoto', 'off', 'path', 'the']",attraction_search
+Are there any beginner-friendly rock climbing spots in Yosemite National Park?,"['any', 'are', 'beginner', 'climbing', 'friendly', 'in', 'national', 'park', 'rock', 'spots']",activity_search
+Where can I find the best spots to try authentic Cajun food in New Orleans?,"['authentic', 'best', 'cajun', 'can', 'find', 'food', 'in', 'new', 'orleans', 'spots']",restaurant_search
+What are the travel logistics for attending La Tomatina festival in Spain?,"['are', 'attending', 'festival', 'for', 'in', 'la', 'logistics', 'spain', 'the', 'tomatina']",trip_planning
+What are the most eco-friendly ways to experience the Great Barrier Reef?,"['the', 'are', 'barrier', 'eco', 'experience', 'friendly', 'great', 'most', 'reef', 'to']",activity_search
+How do I get the most breathtaking sunrise photos at Angkor Wat in Cambodia?,"['angkor', 'at', 'breathtaking', 'cambodia', 'do', 'get', 'how', 'in', 'most', 'photos']",photography_tips
+"What are some highly-rated backpacking hostels with a social atmosphere in Queenstown, New Zealand?","['are', 'atmosphere', 'backpacking', 'highly', 'hostels', 'in', 'new', 'queenstown', 'rated', 'social']",accommodation_search
+"What are some unique cultural experiences I can have in Udaipur, India?","['are', 'can', 'cultural', 'experiences', 'have', 'in', 'india', 'some', 'udaipur', 'unique']",activity_search
+"What are the must-see places for a two-week backwater cruise in Kerala, India?","['are', 'backwater', 'cruise', 'for', 'in', 'india', 'kerala', 'must', 'places', 'see']",trip_planning
+"Can you recommend some highly-rated Michelin-starred sushi restaurants in Tokyo, Japan?","['can', 'highly', 'in', 'japan', 'michelin', 'rated', 'recommend', 'restaurants', 'some', 'starred']",restaurant_search
+"What are the essential things to know before attending Carnival in Rio de Janeiro, Brazil?","['are', 'attending', 'before', 'brazil', 'carnival', 'de', 'essential', 'in', 'janeiro', 'know']",trip_planning
+What are the best beaches for surfing lessons in Goa during the monsoon season?,"['the', 'are', 'beaches', 'best', 'during', 'for', 'goa', 'in', 'lessons', 'monsoon']",activity_search
+What are some reputable companies offering guided desert camping tours in Rajasthan?,"['are', 'camping', 'companies', 'desert', 'guided', 'in', 'offering', 'rajasthan', 'reputable', 'some']",tour_search
+Are there any budget-friendly homestays with stunning views in Munnar?,"['any', 'are', 'budget', 'friendly', 'homestays', 'in', 'munnar', 'stunning', 'there', 'views']",accommodation_search
+What are some traditional cooking classes I can take in Kerala to learn about Ayurvedic cuisine?,"['about', 'are', 'ayurvedic', 'can', 'classes', 'cooking', 'cuisine', 'in', 'kerala', 'learn']",activity_search
+What are some unique ways to experience the festival of Diwali in Varanasi?,"['are', 'diwali', 'experience', 'festival', 'in', 'of', 'some', 'the', 'to', 'unique']",activity_search
+What are some volunteer opportunities available in Dharamshala to support the Tibetan community?,"['are', 'available', 'community', 'dharamshala', 'in', 'opportunities', 'some', 'support', 'the', 'tibetan']",volunteer_search
+What are the best places to go for coffee plantation tours and tastings in Coorg?,"['and', 'are', 'best', 'coffee', 'coorg', 'for', 'go', 'in', 'places', 'plantation']",activity_search
+What are some challenging yet safe mountain biking trails for experienced riders in Ladakh?,"['are', 'biking', 'challenging', 'experienced', 'for', 'in', 'ladakh', 'mountain', 'riders', 'safe']",activity_search
+Can you recommend some unique historical sites off the beaten path to explore near Hampi?,"['beaten', 'can', 'explore', 'hampi', 'historical', 'near', 'off', 'path', 'recommend', 'sites']",attraction_search
+What are the dates for the upcoming Goa Carnival in India?,"['the', 'are', 'carnival', 'dates', 'for', 'goa', 'in', 'india', 'upcoming', 'what']",festival_info
+"Where can I find the best restaurants serving Chettinad cuisine in Chennai, India?","['best', 'can', 'chennai', 'chettinad', 'cuisine', 'find', 'in', 'india', 'restaurants', 'serving']",restaurant_search
+"What are some eco-friendly yoga retreats to stay in Rishikesh, India?","['are', 'eco', 'friendly', 'in', 'india', 'retreats', 'rishikesh', 'some', 'stay', 'to']",accommodation_search
+What are some lesser-known historical facts about the Taj Mahal?,"['about', 'are', 'facts', 'historical', 'known', 'lesser', 'mahal', 'some', 'taj', 'the']",information_search
+When is the next edition of the Kolkata International Film Festival happening?,"['the', 'edition', 'festival', 'film', 'happening', 'international', 'is', 'kolkata', 'next', 'of']",event_info
+What are some popular hiking trails near Manali?,"['are', 'hiking', 'manali', 'near', 'popular', 'some', 'trails', 'what']",activity_search
+What are some must-visit historical landmarks in Delhi?,"['are', 'delhi', 'historical', 'in', 'landmarks', 'must', 'some', 'visit', 'what']",attraction_search
+How can I find homestays with a view in Munnar for under $50 a night?,"['50', 'can', 'find', 'for', 'homestays', 'how', 'in', 'munnar', 'night', 'under']",accommodation_search
+What are some wildlife sanctuaries to visit in India during the winter season?,"['are', 'during', 'in', 'india', 'sanctuaries', 'season', 'some', 'the', 'to', 'visit']",activity_search
+Is there a farmers market open today near me?,"['farmers', 'is', 'market', 'me', 'near', 'open', 'there', 'today']",business_search
+What are some art galleries exhibiting modern paintings in Chelsea Manhattan?,"['are', 'art', 'chelsea', 'exhibiting', 'galleries', 'in', 'manhattan', 'modern', 'paintings', 'some']",attraction_search
+When are there flights departing from San Francisco to Paris this summer?,"['are', 'departing', 'flights', 'francisco', 'from', 'paris', 'san', 'summer', 'there', 'this']",travel_search
+Are there any vegetarian restaurants with outdoor seating in Austin Texas?,"['any', 'are', 'austin', 'in', 'outdoor', 'restaurants', 'seating', 'texas', 'there', 'vegetarian']",restaurant_search
+What spas offer couples massages in Bangalore on weekdays?,"['bangalore', 'couples', 'in', 'massages', 'offer', 'on', 'spas', 'weekdays', 'what']",business_search
+What are the weather conditions like in London today?,"['are', 'conditions', 'in', 'like', 'london', 'the', 'today', 'weather', 'what']",weather_search
+Where can I find a pharmacy near me that's open late tonight?,"['can', 'find', 'late', 'me', 'near', 'open', 'pharmacy', 'that', 'tonight', 'where']",business_search
+What are some popular things to do in Barcelona for families with young children?,"['are', 'barcelona', 'children', 'do', 'families', 'for', 'in', 'popular', 'some', 'things']",activity_search
+What are some highly-rated Italian restaurants in San Francisco's Chinatown?,"['are', 'chinatown', 'francisco', 'highly', 'in', 'italian', 'rated', 'restaurants', 'san', 'some']",restaurant_search
+What museums are free to enter on the first Saturday of the month?,"['the', 'are', 'enter', 'first', 'free', 'month', 'museums', 'of', 'on', 'saturday']",attraction_search
+What are the best places to go hiking near Manali?,"['are', 'best', 'go', 'hiking', 'manali', 'near', 'places', 'the', 'to', 'what']",activity_search
+Are there any art galleries showcasing impressionist paintings in Chelsea New York?,"['any', 'are', 'art', 'chelsea', 'galleries', 'impressionist', 'in', 'new', 'paintings', 'showcasing']",attraction_search
+When can I find flights departing from San Francisco International Airport to Paris during summer this year?,"['airport', 'can', 'departing', 'during', 'find', 'flights', 'francisco', 'from', 'international', 'paris']",travel_search
+Is there a traditional flamenco show happening tonight near Plaza Mayor in Madrid?,"['flamenco', 'happening', 'in', 'is', 'madrid', 'mayor', 'near', 'plaza', 'show', 'there']",event_search
+What are some historical walking tours offered in English in Prague Czech Republic?,"['in', 'are', 'czech', 'english', 'historical', 'offered', 'prague', 'republic', 'some', 'tours']",activity_search
+How far is it from Marrakech to the Sahara Desert and are there day tours available?,"['and', 'are', 'available', 'day', 'desert', 'far', 'from', 'how', 'is', 'it']",trip_planning
+I'm interested in learning how to tango in Buenos Aires Argentina. Are there any beginner-friendly classes offered? ,"['in', 'aires', 'any', 'are', 'argentina', 'beginner', 'buenos', 'classes', 'friendly', 'how']",activity_search
+Where can I find wildlife sanctuaries offering volunteer programs in South Africa?,"['africa', 'can', 'find', 'in', 'offering', 'programs', 'sanctuaries', 'south', 'volunteer', 'where']",volunteer_search
+What are some things to do for kids on a rainy day in London England?,"['are', 'day', 'do', 'england', 'for', 'in', 'kids', 'london', 'on', 'rainy']",activity_search
+I'm planning a road trip along the Pacific Coast Highway. Can you suggest some scenic stops along the way?,"['along', 'the', 'can', 'coast', 'highway', 'pacific', 'planning', 'road', 'scenic', 'some']",trip_planning
+What are some unique festivals happening in Rio de Janeiro Brazil in February?,"['in', 'are', 'brazil', 'de', 'february', 'festivals', 'happening', 'janeiro', 'rio', 'some']",event_search
+What day trips are there from Hanoi to Ha Long Bay that include kayaking?,"['are', 'bay', 'day', 'from', 'ha', 'hanoi', 'include', 'kayaking', 'long', 'that']",activity_search
+What are some traditional African dance classes offered in Accra Ghana?,"['accra', 'african', 'are', 'classes', 'dance', 'ghana', 'in', 'offered', 'some', 'traditional']",activity_search
+Best places to go white water rafting in Nepal in April,"['in', 'april', 'best', 'go', 'nepal', 'places', 'rafting', 'to', 'water', 'white']",activity_search
+Cheapest time to fly to Santorini Greece from Chicago,"['to', 'cheapest', 'chicago', 'fly', 'from', 'greece', 'santorini', 'time']",flight_search
+What are the visa requirements for US citizens traveling to Vietnam?,"['are', 'citizens', 'for', 'requirements', 'the', 'to', 'traveling', 'us', 'vietnam', 'visa']",travel_documentation
+Open water diving courses near El Nido Palawan in the Philippines,"['courses', 'diving', 'el', 'in', 'near', 'nido', 'open', 'palawan', 'philippines', 'the']",activity_search
+Safest places for solo female travelers in Southeast Asia,"['asia', 'female', 'for', 'in', 'places', 'safest', 'solo', 'southeast', 'travelers']",trip_planning
+UNESCO World Heritage Sites in Colombia to visit off the beaten path,"['beaten', 'colombia', 'heritage', 'in', 'off', 'path', 'sites', 'the', 'to', 'unesco']",attraction_search
+Wildlife photography tours in Botswana's Okavango Delta,"['botswana', 'delta', 'in', 'okavango', 'photography', 'tours', 'wildlife']",activity_search
+Best mountain bike trails for beginners near Whistler Canada,"['beginners', 'best', 'bike', 'canada', 'for', 'mountain', 'near', 'trails', 'whistler']",activity_search
+Historical walking tours in Budapest with English guides,"['budapest', 'english', 'guides', 'historical', 'in', 'tours', 'walking', 'with']",activity_search
+Best glamping experiences near Patagonia for a romantic getaway,"['best', 'experiences', 'for', 'getaway', 'glamping', 'near', 'patagonia', 'romantic']",activity_search
+Ancient ruins to visit in Jordan besides Petra,"['ancient', 'besides', 'in', 'jordan', 'petra', 'ruins', 'to', 'visit']",attraction_search
+Best places to learn to kitesurf in the Caribbean during the summer,"['the', 'to', 'best', 'caribbean', 'during', 'in', 'kitesurf', 'learn', 'places', 'summer']",activity_search
+What type of currency is used in Mongolia and can I exchange USD there?,"['and', 'can', 'currency', 'exchange', 'in', 'is', 'mongolia', 'of', 'there', 'type']",travel_documentation
+Do I need a travel adapter for my electronics in South Africa?,"['adapter', 'africa', 'do', 'electronics', 'for', 'in', 'my', 'need', 'south', 'travel']",travel_documentation
+Safest ways to travel around Sri Lanka for budget backpackers,"['around', 'backpackers', 'budget', 'for', 'lanka', 'safest', 'sri', 'to', 'travel', 'ways']",trip_planning
+Which countries require proof of yellow fever vaccination for entry?,"['countries', 'entry', 'fever', 'for', 'of', 'proof', 'require', 'vaccination', 'which', 'yellow']",travel_documentation
+What local festivals are happening in Cusco Peru in June?,"['in', 'are', 'cusco', 'festivals', 'happening', 'june', 'local', 'peru', 'what']",event_search
+Malaria medication recommendations for trekking in Nepal in October,"['in', 'for', 'malaria', 'medication', 'nepal', 'october', 'recommendations', 'trekking']",travel_documentation
+Best places to stay for wildlife viewing in Kruger National Park South Africa,"['africa', 'best', 'for', 'in', 'kruger', 'national', 'park', 'places', 'south', 'stay']",accommodation_search
+Who is eligible for e-Visa Services?,"['eligible', 'for', 'is', 'services', 'visa', 'who']",travel_documentation
+What is the procedure of applying for e-Visa?,"['applying', 'for', 'is', 'of', 'procedure', 'the', 'visa', 'what']",travel_documentation
+Is there any other website apart from the government website to apply for the e-Visa application?,"['the', 'website', 'any', 'apart', 'application', 'apply', 'for', 'from', 'government', 'is']",travel_documentation
+Is there any fee other than the processing fee for visa application?,"['fee', 'any', 'application', 'for', 'is', 'other', 'processing', 'than', 'the', 'there']",travel_documentation
+Do I get a confirmation of submission of my e-Visa application?,"['of', 'application', 'confirmation', 'do', 'get', 'my', 'submission', 'visa']",travel_documentation
+When will my e-Visa be issued and how will I be informed about it?,"['be', 'will', 'about', 'and', 'how', 'informed', 'issued', 'it', 'my', 'visa']",travel_documentation
+Can I check the status of my e-Visa application?,"['application', 'can', 'check', 'my', 'of', 'status', 'the', 'visa']",travel_documentation
+What is the validity of e-Visa?,"['is', 'of', 'the', 'validity', 'visa', 'what']",travel_documentation
+Can I convert my e-Visa to any other Visa?,"['visa', 'any', 'can', 'convert', 'my', 'other', 'to']",travel_documentation
+I have not received any intimation even after 72 Hours of submission of my e-Visa application. What should I do now?,"['of', '72', 'after', 'any', 'application', 'do', 'even', 'have', 'hours', 'intimation']",travel_documentation
+I am applying e-Visa for myself and my son/daughter who is a minor. Do I need to apply for a separate e-Visa for my minor child?,"['for', 'minor', 'my', 'visa', 'am', 'apply', 'applying', 'child', 'daughter', 'do']",travel_documentation
+I have submitted my e-Visa application and paid the processing fee. If I cancel my proposed visit to India will the fees be refunded?,"['my', 'the', 'and', 'application', 'be', 'cancel', 'fee', 'fees', 'have', 'if']",travel_documentation
+Do I have to pay anything else at the airport for e-Visa (other than the processing fee paid by me online)?,"['the', 'airport', 'anything', 'at', 'by', 'do', 'else', 'fee', 'have', 'me']",travel_documentation
+I want to submit my liquor permit application along with my e-visa application how can I do this?,"['application', 'my', 'along', 'can', 'do', 'how', 'liquor', 'permit', 'submit', 'this']",travel_documentation
+What should I do if the payment is not accepted by the e-Visa website?,"['the', 'accepted', 'by', 'do', 'if', 'is', 'not', 'payment', 'should', 'visa']",travel_documentation
+How can I get the invoice/receipt of the e-Visa payment?,"['the', 'can', 'get', 'how', 'invoice', 'of', 'payment', 'receipt', 'visa']",travel_documentation
+What are the necessary documents required to apply for an e-Business Visa other than the Passport?,"['the', 'an', 'apply', 'are', 'business', 'documents', 'for', 'necessary', 'other', 'passport']",travel_documentation
+What is a Business Card?,"['business', 'card', 'is', 'what']",travel_documentation
+What are the necessary documents required for e-Medical Visa other than the Passport?,"['the', 'are', 'documents', 'for', 'medical', 'necessary', 'other', 'passport', 'required', 'than']",travel_documentation
+What are the necessary documents required for e-Conference Visa other than the Passport?,"['the', 'are', 'conference', 'documents', 'for', 'necessary', 'other', 'passport', 'required', 'than']",travel_documentation
+I got a new passport but my ETA was on old passport and it is still valid. How can I proceed now?,"['passport', 'and', 'but', 'can', 'eta', 'got', 'how', 'is', 'it', 'my']",travel_documentation
+Can I enter India using Land border even if I am having valid e-visa for any other airport or seaport which is not listed for the e-Visa ?,"['for', 'visa', 'airport', 'am', 'any', 'border', 'can', 'enter', 'having', 'if']",travel_documentation
+How can I fill previous Visa details inside the e-Visa application form?,"['visa', 'application', 'can', 'details', 'fill', 'form', 'how', 'inside', 'previous', 'the']",travel_documentation
+Can I get Visa on Arrival(VoA) at Indian Airports/Seaport?,"['airports', 'arrival', 'at', 'can', 'get', 'indian', 'on', 'seaport', 'visa', 'voa']",travel_documentation
+Can I get a refund for the rejected e-Visa application?,"['application', 'can', 'for', 'get', 'refund', 'rejected', 'the', 'visa']",travel_documentation
+Can I use e-Visa to enter in India by cruise Ship?,"['by', 'can', 'cruise', 'enter', 'in', 'india', 'ship', 'to', 'use', 'visa']",travel_documentation
+What is 'Visible Identification Mark'?,"['identification', 'is', 'mark', 'visible', 'what']",travel_documentation
+Who have to carry the 'Yellow Fever Vaccination card'?,"['card', 'carry', 'fever', 'have', 'the', 'to', 'vaccination', 'who', 'yellow']",travel_documentation
+We got the ETA but have discrepancy in the Name Nationality Passport Number and Date of Birth in the ETA ?,"['the', 'eta', 'in', 'and', 'birth', 'but', 'date', 'discrepancy', 'got', 'have']",travel_documentation
+Is the e-Visa facility allowed for employment Visa?,"['visa', 'allowed', 'employment', 'facility', 'for', 'is', 'the']",travel_documentation
+Is the e-Visa allowed for Non-Governmental Organization (NGO) activities and journalism purposes ?,"['activities', 'allowed', 'and', 'for', 'governmental', 'is', 'journalism', 'ngo', 'non', 'organization']",travel_documentation

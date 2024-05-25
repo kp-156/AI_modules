@@ -1,0 +1,21 @@
+Sentences,ner_ngram,Values,Intent
+What are some airlines offering pet-friendly travel options for flying with my dog from Mumbai to Bangalore?,"{'accommodation': [1, 3], 'origin': [1, 3], 'destination': [1, 3]}","['Mumbai', 'Bangalore']",flight_search
+Can I find connecting flights with minimal layover times for a trip from Europe to Chennai?,"{'activity': [1, 3], 'origin': [1, 3], 'destination': [1, 3]}",['Chennai'],flight_search
+What are some travel insurance options that cover flight cancellations or delays for my trip to India?,"{'travel_doc': [1, 3], 'fee': [1, 3], 'location': [0, 2]}",,travel_insurance_search
+What are the baggage allowance restrictions for different airlines flying to India from Australia?,"{'travel_doc': [1, 3], 'origin': [1, 3], 'destination': [1, 3]}",['India'],flight_search
+How can I find information about visa requirements and travel documentation needed for flying into India?,"{'location': [1, 3], 'document': [1, 3]}",,visa_information_search
+What are the current COVID-19 entry restrictions and testing requirements for travelers arriving in India?,"{'location': [1, 3], 'disease': [1, 3], 'profession': [1, 3]}",,travel_restrictions_search
+What is the local currency in India and what is the best way to exchange money for my trip?,"{'location': [1, 3], 'activity': [1, 3]}",{'location': [3]},currency_exchange_advice
+What are some essential items to pack for a trip to India during the monsoon season (rainy season)?,"{'location': [1, 3], 'activity': [1, 3], 'season': [0, 1]}",['India'],packing_essentials_search
+Is it safe to drink tap water in India or should I stick to bottled water?,"{'location': [1, 3]}","{'location': [3], 'tags': ['water']}",health_advice
+What are some common scams to be aware of and how to avoid them while traveling in India?,"{'location': [1, 3], 'activity': [1, 3]}",['India'],safety_advice
+What is the appropriate dress code for visiting religious sites and temples in India?,"{'location': [1, 3], 'attraction_type': [0, 4]}",['India'],cultural_etiquette_advice
+"How much should I tip taxi drivers, restaurant servers and other service providers in India?","{'location': [1, 3], 'profession': [1, 3]}",,tipping_etiquette_advice
+Are there any regional variations in customary greetings and social interactions across India?,"{'location': [1, 3], 'activity': [1, 3]}",['India'],cultural_etiquette_advice
+What are some essential Hindi phrases I should learn to enhance my communication while traveling in India?,"{'location': [1, 3], 'language': [0, 1]}",['India'],language_learning_resources
+What is the best time of year to visit India considering weather conditions and tourist crowds?,"{'location': [1, 3]}",['India'],travel_season_advice
+What are some popular festivals and cultural events happening in India during month that I can experience?,"{'location': [1, 3], 'event': [1, 3]}",['India'],event_search
+How safe is it for solo female travelers to explore different regions of India?,"{'location': [1, 3], 'profession': [1, 3], 'gender':[0, 1]}",['India'],safety_advice
+What are some eco-friendly travel practices I can adopt to minimize my environmental impact while traveling in India?,"{'location': [1, 3], 'document': [1, 3]}",['India'],sustainable_travel_tips
+Is it customary to bargain at markets and shops in India and how should I approach it respectfully?,"{'location': [1, 3]}",{'location': [3]},bargaining_advice
+What are some reliable sources for news and updates on current events and travel advisories for India?,"{'location': [1, 3]}",['India'],travel_advisory_resources

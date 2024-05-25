@@ -1,0 +1,15 @@
+{
+    "standard_opening" : [0,5],
+    "purpose_of_the_call" : [0,5],
+    "objection_handling" : [0,15],
+    "probing_skills" : [0,10],
+    "persuation" : [0,10],
+    "listening_skill": [0,10],
+    "rate_of_speech" : [0,10],
+    "empathetic_phrases" : [0,10],
+    "confident_and_fumbling_enthusiasm" : [0,10],
+    "standardized_closing" : [0,5],
+    "product_knowledge_and_information" : [0,10],
+    "legal_flag" : [0,5],
+    "abusive_flag" : [0,5]
+}

@@ -1,0 +1,1256 @@
+{
+    "datasets": [
+        {
+            "name": "dataset1",
+            "data": [
+                {
+                    "question": "What are some popular hiking trails near Manali?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Manali"
+                    ]
+                },
+                {
+                    "question": "What are some must-visit historical landmarks in Delhi?",
+                    "goal_name": "attraction_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Delhi"
+                    ]
+                },
+                {
+                    "question": "How can I find homestays with a view in Munnar for under $50 a night?",
+                    "goal_name": "accommodation_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "price": [
+                            1,
+                            2
+                        ],
+                        "accommodation": [
+                            3,
+                            4
+                        ]
+                    },
+                    "values": [
+                        "Munnar",
+                        "$50",
+                        "homestays"
+                    ]
+                },
+                {
+                    "question": "What are some wildlife sanctuaries to visit in India during the winter season?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "season": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "India",
+                        "winter"
+                    ]
+                },
+                {
+                    "question": "Is there a farmers market open today near me?",
+                    "goal_name": "business_search",
+                    "ner_ngram": {
+                        "time": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "today"
+                    ]
+                },
+                {
+                    "question": "What are some art galleries exhibiting modern paintings in Chelsea Manhattan?",
+                    "goal_name": "attraction_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "attraction_type": [
+                            2,
+                            4
+                        ]
+                    },
+                    "values": [
+                        "Chelsea, Manhattan",
+                        "modern paintings"
+                    ]
+                },
+                {
+                    "question": "When are there flights departing from San Francisco to Paris this summer?",
+                    "goal_name": "travel_search",
+                    "ner_ngram": {
+                        "origin": [
+                            1,
+                            2
+                        ],
+                        "destination": [
+                            1,
+                            2
+                        ],
+                        "season": [
+                            1
+                        ]
+                    },
+                    "values": [
+                        "San Francisco",
+                        "Paris",
+                        "summer"
+                    ]
+                },
+                {
+                    "question": "Are there any vegetarian restaurants with outdoor seating in Austin Texas?",
+                    "goal_name": "restaurant_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "cuisine": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Austin, Texas",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "question": "What spas offer couples massages in Bangalore on weekdays?",
+                    "goal_name": "business_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "service": [
+                            1,
+                            2
+                        ],
+                        "time": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Bangalore",
+                        "couples massages",
+                        "weekdays"
+                    ]
+                },
+                {
+                    "question": "What are the weather conditions like in London today?",
+                    "goal_name": "weather_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "time": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "London",
+                        "today"
+                    ]
+                },
+                {
+                    "question": "Where can I find a pharmacy near me that's open late tonight?",
+                    "goal_name": "business_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "time": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "current location",
+                        "late tonight"
+                    ]
+                },
+                {
+                    "question": "What are some popular things to do in Barcelona for families with young children?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Barcelona"
+                    ]
+                },
+                {
+                    "question": "What are some highly-rated Italian restaurants in San Francisco's Chinatown?",
+                    "goal_name": "restaurant_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "cuisine": [
+                            2,
+                            3
+                        ]
+                    },
+                    "values": [
+                        "San Francisco Chinatown",
+                        "Italian"
+                    ]
+                },
+                {
+                    "question": "What museums are free to enter on the first Saturday of the month?",
+                    "goal_name": "attraction_search",
+                    "ner_ngram": {
+                        "attraction_type": [
+                            2,
+                            4
+                        ],
+                        "day": [
+                            1
+                        ]
+                    },
+                    "values": [
+                        "museum",
+                        "Saturday"
+                    ]
+                },
+                {
+                    "question": "What are the best places to go hiking near Manali?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Manali"
+                    ]
+                },
+                {
+                    "question": "Are there any art galleries showcasing impressionist paintings in Chelsea New York?",
+                    "goal_name": "attraction_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "exhibit": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Chelsea, New York",
+                        "impressionist paintings"
+                    ]
+                },
+                {
+                    "question": "When can I find flights departing from San Francisco International Airport to Paris during summer this year?",
+                    "goal_name": "travel_search",
+                    "ner_ngram": {
+                        "origin": [
+                            1,
+                            2
+                        ],
+                        "destination": [
+                            1,
+                            2
+                        ],
+                        "time": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "San Francisco International Airport",
+                        "Paris",
+                        "this summer"
+                    ]
+                },
+                {
+                    "question": "Is there a traditional flamenco show happening tonight near Plaza Mayor in Madrid?",
+                    "goal_name": "event_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "time": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Madrid, Plaza Mayor",
+                        "tonight"
+                    ]
+                },
+                {
+                    "question": "What are some historical walking tours offered in English in Prague Czech Republic?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            2,
+                            3
+                        ],
+                        "language": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Prague, Czech Republic",
+                        "English"
+                    ]
+                },
+                {
+                    "question": "How far is it from Marrakech to the Sahara Desert and are there day tours available?",
+                    "goal_name": "trip_planning",
+                    "ner_ngram": {
+                        "origin": [
+                            1,
+                            2
+                        ],
+                        "destination": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Marrakech",
+                        "Sahara Desert"
+                    ]
+                },
+                {
+                    "question": "I'm interested in learning how to tango in Buenos Aires Argentina. Are there any beginner-friendly classes offered? ",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Buenos Aires, Argentina"
+                    ]
+                },
+                {
+                    "question": "Where can I find wildlife sanctuaries offering volunteer programs in South Africa?",
+                    "goal_name": "volunteer_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "South Africa"
+                    ]
+                },
+                {
+                    "question": "What are some things to do for kids on a rainy day in London England?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "London, England"
+                    ]
+                },
+                {
+                    "question": "I'm planning a road trip along the Pacific Coast Highway. Can you suggest some scenic stops along the way?",
+                    "goal_name": "trip_planning",
+                    "ner_ngram": {
+                        "route": [
+                            2,
+                            3
+                        ]
+                    },
+                    "values": [
+                        "Pacific Coast Highway"
+                    ]
+                },
+                {
+                    "question": "What are some unique festivals happening in Rio de Janeiro Brazil in February?",
+                    "goal_name": "event_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "month": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Rio de Janeiro, Brazil",
+                        "February"
+                    ]
+                },
+                {
+                    "question": "What day trips are there from Hanoi to Ha Long Bay that include kayaking?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "origin": [
+                            1,
+                            2
+                        ],
+                        "destination": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Hanoi",
+                        "Ha Long Bay"
+                    ]
+                },
+                {
+                    "question": "What are some traditional African dance classes offered in Accra Ghana?",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Accra, Ghana"
+                    ]
+                },
+                {
+                    "question": "Best places to go white water rafting in Nepal in April",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "month": [
+                            1
+                        ],
+                        "activity": [
+                            1,
+                            3
+                        ]
+                    },
+                    "values": [
+                        "Nepal",
+                        "April",
+                        "white water rafting"
+                    ]
+                },
+                {
+                    "question": "Cheapest time to fly to Santorini Greece from Chicago",
+                    "goal_name": "flight_search",
+                    "ner_ngram": {
+                        "destination": [
+                            1,
+                            2
+                        ],
+                        "origin": [
+                            5,
+                            6
+                        ],
+                        "cost": [
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Santorini, Greece",
+                        "Chicago",
+                        "cheapest"
+                    ]
+                },
+                {
+                    "question": "What are the visa requirements for US citizens traveling to Vietnam?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "citizenship": [
+                            1,
+                            2
+                        ],
+                        "destination": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "US",
+                        "Vietnam"
+                    ]
+                },
+                {
+                    "question": "Open water diving courses near El Nido Palawan in the Philippines",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "activity": [
+                            1,
+                            3
+                        ],
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Open water diving courses",
+                        "El Nido, Palawan, Philippines"
+                    ]
+                },
+                {
+                    "question": "Safest places for solo female travelers in Southeast Asia",
+                    "goal_name": "trip_planning",
+                    "ner_ngram": {
+                        "gender": [
+                            0,
+                            1
+                        ],
+                        "region": [
+                            1,
+                            3
+                        ]
+                    },
+                    "values": [
+                        "female",
+                        "Southeast Asia"
+                    ]
+                },
+                {
+                    "question": "UNESCO World Heritage Sites in Colombia to visit off the beaten path",
+                    "goal_name": "attraction_search",
+                    "ner_ngram": {
+                        "organisation": [
+                            1,
+                            3
+                        ],
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "UNESCO",
+                        "Colombia"
+                    ]
+                },
+                {
+                    "question": "Wildlife photography tours in Botswana's Okavango Delta",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Botswana, Okavango Delta"
+                    ]
+                },
+                {
+                    "question": "Best mountain bike trails for beginners near Whistler Canada",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "car_type": [
+                            2,
+                            4
+                        ],
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "mountain bike",
+                        "Whistler, Canada"
+                    ]
+                },
+                {
+                    "question": "Historical walking tours in Budapest with English guides",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "language": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Budapest",
+                        "English"
+                    ]
+                },
+                {
+                    "question": "Best glamping experiences near Patagonia for a romantic getaway",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "theme": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Patagonia",
+                        "romantic"
+                    ]
+                },
+                {
+                    "question": "Ancient ruins to visit in Jordan besides Petra",
+                    "goal_name": "attraction_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Jordan",
+                        "Petra"
+                    ]
+                },
+                {
+                    "question": "Best places to learn to kitesurf in the Caribbean during the summer",
+                    "goal_name": "activity_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "season": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Caribbean",
+                        "summer"
+                    ]
+                },
+                {
+                    "question": "What type of currency is used in Mongolia and can I exchange USD there?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "location": [
+                            2
+                        ],
+                        "currency": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Mongolia",
+                        "USD"
+                    ]
+                },
+                {
+                    "question": "Do I need a travel adapter for my electronics in South Africa?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "South Africa"
+                    ]
+                },
+                {
+                    "question": "Safest ways to travel around Sri Lanka for budget backpackers",
+                    "goal_name": "trip_planning",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Sri Lanka"
+                    ]
+                },
+                {
+                    "question": "Which countries require proof of yellow fever vaccination for entry?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "vaccination": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "yellow fever"
+                    ]
+                },
+                {
+                    "question": "What local festivals are happening in Cusco Peru in June?",
+                    "goal_name": "event_search",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "month": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "Cusco, Peru",
+                        "June"
+                    ]
+                },
+                {
+                    "question": "Malaria medication recommendations for trekking in Nepal in October",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "disease": [
+                            1,
+                            3
+                        ],
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "month": [
+                            0,
+                            1
+                        ]
+                    },
+                    "values": [
+                        "MalariaNepal",
+                        "October"
+                    ]
+                },
+                {
+                    "question": "Best places to stay for wildlife viewing in Kruger National Park South Africa",
+                    "goal_name": "accommodation_search",
+                    "ner_ngram": {
+                        "attraction_type": [
+                            2,
+                            4
+                        ],
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Kruger National Park",
+                        "South Africa"
+                    ]
+                },
+                {
+                    "question": "Who is eligible for e-Visa Services?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "What is the procedure of applying for e-Visa?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "Is there any other website apart from the government website to apply for the e-Visa application?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa application"
+                    ]
+                },
+                {
+                    "question": "Is there any fee other than the processing fee for visa application?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "fee": [
+                            1,
+                            3
+                        ]
+                    },
+                    "values": [
+                        "processing fee"
+                    ]
+                },
+                {
+                    "question": "Do I get a confirmation of submission of my e-Visa application?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa application"
+                    ]
+                },
+                {
+                    "question": "When will my e-Visa be issued and how will I be informed about it?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "Can I check the status of my e-Visa application?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa application"
+                    ]
+                },
+                {
+                    "question": "What is the validity of e-Visa?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "Can I convert my e-Visa to any other Visa?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "I have not received any intimation even after 72 Hours of submission of my e-Visa application. What should I do now?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa application"
+                    ]
+                },
+                {
+                    "question": "I am applying e-Visa for myself and my son/daughter who is a minor. Do I need to apply for a separate e-Visa for my minor child?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "I have submitted my e-Visa application and paid the processing fee. If I cancel my proposed visit to India will the fees be refunded?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "location": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa application",
+                        "India"
+                    ]
+                },
+                {
+                    "question": "Do I have to pay anything else at the airport for e-Visa (other than the processing fee paid by me online)?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "fee": [
+                            1,
+                            3
+                        ]
+                    },
+                    "values": [
+                        "e-Visa",
+                        "processing fee"
+                    ]
+                },
+                {
+                    "question": "I want to submit my liquor permit application along with my e-visa application how can I do this?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "document": [
+                            2,
+                            4
+                        ],
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "liquor permit application",
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "What should I do if the payment is not accepted by the e-Visa website?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa website"
+                    ]
+                },
+                {
+                    "question": "How can I get the invoice/receipt of the e-Visa payment?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa payment"
+                    ]
+                },
+                {
+                    "question": "What are the necessary documents required to apply for an e-Business Visa other than the Passport?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "document": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Business Visa",
+                        "Passport"
+                    ]
+                },
+                {
+                    "question": "What is a Business Card?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "document": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "Business Card"
+                    ]
+                },
+                {
+                    "question": "What are the necessary documents required for e-Medical Visa other than the Passport?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "document": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Medical Visa",
+                        "Passport"
+                    ]
+                },
+                {
+                    "question": "What are the necessary documents required for e-Conference Visa other than the Passport?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "document": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Conference Visa",
+                        "Passport"
+                    ]
+                },
+                {
+                    "question": "I got a new passport but my ETA was on old passport and it is still valid. How can I proceed now?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "travel_doc": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "ETA",
+                        "old passport"
+                    ]
+                },
+                {
+                    "question": "Can I enter India using Land border even if I am having valid e-visa for any other airport or seaport which is not listed for the e-Visa ?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "India",
+                        "e-Visa"
+                    ]
+                },
+                {
+                    "question": "How can I fill previous Visa details inside the e-Visa application form?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa application form"
+                    ]
+                },
+                {
+                    "question": "Can I get Visa on Arrival(VoA) at Indian Airports/Seaport?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "location": [
+                            1,
+                            2
+                        ],
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "India",
+                        "Visa on Arrival (VoA)"
+                    ]
+                },
+                {
+                    "question": "Can I get a refund for the rejected e-Visa application?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "e-Visa application"
+                    ]
+                },
+                {
+                    "question": "Can I use e-Visa to enter in India by cruise Ship?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "car_type": [
+                            2,
+                            4
+                        ]
+                    },
+                    "values": [
+                        "e-Visa",
+                        "cruise Ship"
+                    ]
+                },
+                {
+                    "question": "What is 'Visible Identification Mark'?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "document": [
+                            2,
+                            4
+                        ]
+                    },
+                    "values": [
+                        "Visible Identification Mark"
+                    ]
+                },
+                {
+                    "question": "Who have to carry the 'Yellow Fever Vaccination card'?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "vaccination": [
+                            3,
+                            4
+                        ]
+                    },
+                    "values": [
+                        "Yellow Fever Vaccination card"
+                    ]
+                },
+                {
+                    "question": "We got the ETA but have discrepancy in the Name Nationality Passport Number and Date of Birth in the ETA ?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "travel_doc": [
+                            1,
+                            2
+                        ]
+                    },
+                    "values": [
+                        "ETA"
+                    ]
+                },
+                {
+                    "question": "Is the e-Visa facility allowed for employment Visa?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            4,
+                            5
+                        ]
+                    },
+                    "values": [
+                        "e-Visa",
+                        "employment Visa"
+                    ]
+                },
+                {
+                    "question": "Is the e-Visa allowed for Non-Governmental Organization (NGO) activities and journalism purposes ?",
+                    "goal_name": "travel_documentation",
+                    "ner_ngram": {
+                        "visa": [
+                            1,
+                            2
+                        ],
+                        "organisation": [
+                            1,
+                            3
+                        ],
+                        "profession": [
+                            1,
+                            3
+                        ]
+                    },
+                    "values": [
+                        "e-Visa",
+                        "Non-Governmental Organization (NGO)",
+                        "journalism"
+                    ]
+                }
+            ]
+        }
+    ]
+}

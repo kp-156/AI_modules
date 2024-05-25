@@ -1,0 +1,62 @@
+[
+    {
+        "category": "standard_opening",
+        "more_important_keywords": ["Hello", "Company", "Introduce", "Opportunity", "Discussing", "Exploring", "Purpose", "Greetings", "Product", "Service", "Learn", "Benefit", "Thank you"],
+        "less_important_keywords": ["Name", "Speaking", "Reach out", "Connect", "Pleasure", "Today", "Time", "Call", "Morning", "Afternoon", "Reaching out", "Interested", "Connection", "Conversation", "Availability", "Understanding", "Business", "Industry", "Solution", "Offering", "Engage", "Sharing", "Potential", "Goals", "Needs", "Challenge", "Problem", "Requirement", "Welcome", "Explore", "Aware", "Available", "Starting", "Begin", "Pleased", "Opportunity"]
+    },
+    {
+        "category": "purpose_of_the_call",
+        "more_important_keywords": ["Introduce", "Explore", "Discuss", "Present", "Offer", "Share", "Explain", "Propose", "Address", "Solve", "Improve", "Assist", "Demonstrate", "Showcase", "Collaborate", "Identify", "Understand", "Align"],
+        "less_important_keywords": ["Evaluate", "Integrate", "Customize", "Optimize", "Enhance", "Streamline", "Clarify", "Review", "Upgrade", "Advise", "Connect", "Implement", "Negotiate", "Strategize", "Transition", "Resolve", "Develop", "Tailor", "Inform", "Educate", "Illustrate", "Offer insights", "Align with goals", "Recommend", "Assess", "Create solutions", "Navigate challenges", "Share benefits", "Establish partnership", "Discuss opportunities"]
+    },
+    {
+        "category": "objection_handling",
+        "more_important_keywords": ["Understand", "Address", "Clarify", "Overcome", "Resolve", "Reassure", "Solution", "Value", "Benefit", "Advantage", "Counter", "Context", "Perception", "Explanation", "Comparison", "Alternative", "Options", "Evidence", "Case study", "Testimonial", "Results", "ROI", "Risk", "Assurance", "Guarantee", "Flexibility", "Adaptability", "Customization", "Adapt", "Change", "Fit"],
+        "less_important_keywords": ["Concern", "Impact", "Data", "Facts", "Observe", "Empathize", "Listen", "Negotiate", "Convince", "Persuade", "Reiterate", "Logic", "Experience", "Expertise", "Proven", "Understandable", "Budget-friendly", "ROI-driven", "Win-win"]
+    },
+    {
+        "category": "probing_skills",
+        "more_important_keywords": ["Explore", "Inquire", "Question", "Understand", "Gather", "Dig deeper", "Uncover", "Elicit", "Probe", "Investigate", "Examine", "Analyze", "Discover", "Clarify", "Gain insights", "Assess", "Learn", "Listen", "Empathize"],
+        "less_important_keywords": ["Peel back", "Investigate", "Challenge", "Delve into", "Extract", "Unearth", "Scrutinize", "Navigate", "Navigate through", "Navigate around", "Investigate further", "Dive into", "Unravel", "Grasp", "Ascertain", "Pinpoint", "Comprehend", "Unveil", "Unlock", "Unlock details", "Navigate complexities", "Unearth nuances", "Get to the root", "Dig beneath", "Decipher", "Untangle", "Unlock insights", "Unpack", "Decode", "Extrapolate"]
+    },
+    {
+        "category": "persuasion",
+        "more_important_keywords": ["Convince", "Influence", "Persuade", "Win over", "Compel", "Motivate", "Encourage", "Stimulate", "Inspire", "Prompt", "Urge", "Drive", "Catalyze", "Spark", "Impress", "Attract", "Captivate", "Enchant", "Fascinate", "Sway"],
+        "less_important_keywords": ["Win", "Arouse", "Spur", "Ignite", "Energize", "Galvanize", "Mobilize", "Propel", "Trigger", "Provoke", "Incite", "Instigate", "Guide", "Lead", "Direct", "Steer", "Navigate", "Nudge", "Empower", "Leverage", "Utilize", "Apply", "Utilize", "Harness", "Tap into", "Manipulate", "Prompt", "Manipulate", "Position", "Plant the seed"]
+    },
+    {
+        "category": "listening_skill",
+        "more_important_keywords": ["Listen", "Attentive", "Understand", "Hear", "Comprehend", "Engage", "Absorb", "Interpret", "Pay attention", "Focus", "Respect", "Respond", "Acknowledge", "Empathize", "Capture", "Retain", "Retentive", "Grasp", "Note"],
+        "less_important_keywords": ["Internalize", "Consider", "Digest", "Process", "Incorporate", "Appreciate", "Solicit feedback", "Reflect", "Reiterate", "Validate", "Recap", "Recall", "Paraphrase", "Rephrase", "Confirm", "Read between the lines", "Detect", "Register", "Decipher", "Decompose", "Deconstruct", "Uncover", "Examine", "Analyze", "Probe", "Observe", "Watch", "Monitor", "Screen", "Survey", "Scrutinize"]
+    },
+    {
+        "category": "empathetic_phrases",
+        "more_important_keywords": ["I understand", "I hear you", "I see where you're coming from", "I appreciate your perspective", "It sounds like", "I'm here to help", "I'm on your side", "I want to make this work for you", "Your feelings are important", "I can imagine how that feels"],
+        "less_important_keywords": ["I'm sorry to hear that", "I'm here to support you", "Let's find a solution together", "Tell me more about what you're experiencing", "How can I assist you best?", "You're not alone in this", "I'm here to listen", "I want to make this process as smooth as possible for you", "You're absolutely right", "Your concerns are valid"]
+    },
+    {
+        "category": "confident_and_fumbling_enthusiasm",
+        "more_important_keywords": ["Excited", "Confident", "Eager", "Enthusiastic", "Positive", "Optimistic", "Assured", "Certain", "Spirited", "Upbeat", "Vibrant", "Determined", "Self-assured", "Empowered", "Fired up", "Passionate", "Inspired", "Motivated", "Unwavering"],
+        "less_important_keywords": ["Resolute", "Bold", "Fearless", "Courageous", "Strong", "Robust", "Radiant", "Pumped", "Animated", "Zestful", "Dynamic", "Inspirational", "Unstoppable", "Can-do attitude", "Winning mindset", "Driven", "Proactive", "Decisive", "Assertive"]
+    },
+    {
+        "category": "standardized_closing",
+        "more_important_keywords": ["Next steps", "Action plan", "Follow-up", "Decision", "Close", "Finalize", "Commit", "Agreement", "Confirmation", "Arrange", "Schedule", "Set up", "Conclude", "Complete", "Wrap up", "Resolve", "End", "Finish", "Details"],
+        "less_important_keywords": ["Information", "Documentation", "Paperwork", "Process", "Steps", "Proceed", "Move forward", "Move ahead", "Progress", "Continue", "Advance", "Sign", "Review", "Approval", "Acceptance", "Deal", "Negotiation", "Thank you", "Gratitude"]
+    },
+    {
+        "category": "product_knowledge_and_information",
+        "more_important_keywords": ["Features", "Specifications", "Details", "Functionality", "Benefits", "Advantages", "Capabilities", "Performance", "Quality", "Usage", "Application", "Technology", "Components", "Materials", "Design", "Innovation", "Customization", "Integration"],
+        "less_important_keywords": ["Compatibility", "Scalability", "Ease of use", "User-friendly", "Efficiency", "Effectiveness", "Results", "Solutions", "Value", "ROI", "Cost-effective", "Investment", "Options", "Variety", "Versatility", "Use cases", "Case studies", "Examples"]
+    },
+    {
+        "category": "legal_flag",
+        "more_important_keywords": ["I will take legal action", "I will raise to the management", "I will escalate to the management", "Take us to court", "I will sue you"],
+        "less_important_keywords": ["I  am not satisfied", "I am highly dissatisfied"]
+    },
+    {
+        "category": "abusive_flag",
+        "more_important_keywords": ["bloody", "dick", "prick", "penis", "pillock", "frigging", "bollocks", "bitch", "bastard", "tits", "ass", "slut", "fuck", "fucking", "motherfucker", "motherfuckers", "fucks", "shitty", "faggot", "dipshit"],
+        "less_important_keywords": ["slapper", "arse", "dork", "nonce", "moron", "cretin", "shit", "crap"]
+    }
+]

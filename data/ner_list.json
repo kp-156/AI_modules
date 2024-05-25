@@ -1,0 +1,168 @@
+{
+  "accommodation": [
+    1,
+    3
+  ],
+  "activity": [
+    2,
+    4
+  ],
+  "addresses": [
+    4,
+    8
+  ],
+  "attraction_type": [
+    2,
+    4
+  ],
+  "car_type": [
+    2,
+    4
+  ],
+  "citizenship": [
+    1,
+    2
+  ],
+  "cost": [
+    1
+  ],
+  "cuisine": [
+    0,
+    1
+  ],
+  "currency": [
+    0,
+    1
+  ],
+  "date": [
+    1
+  ],
+  "day": [
+    1
+  ],
+  "destination": [
+    1,
+    2
+  ],
+  "disease": [
+    1,
+    3
+  ],
+  "document": [
+    2,
+    4
+  ],
+  "duration": [
+    1,
+    4
+  ],
+  "event": [
+    2,
+    4
+  ],
+  "exhibit": [
+    1,
+    2
+  ],
+  "fee": [
+    1,
+    3
+  ],
+  "festival": [
+    1,
+    3
+  ],
+  "flight_type": [
+    3,
+    4
+  ],
+  "food": [
+    1,
+    3
+  ],
+  "gender": [
+    1,
+    4
+  ],
+  "hotel_name": [
+    2,
+    4
+  ],
+  "language": [
+    1,
+    2
+  ],
+  "location": [
+    1,
+    2,
+    3
+  ],
+  "month": [
+    0,
+    1
+  ],
+  "names": [
+    1,
+    3
+  ],
+  "organisation": [
+    1,
+    4
+  ],
+  "origin": [
+    1,
+    2
+  ],
+  "phone_number": [
+    1
+  ],
+  "price": [
+    1,
+    2
+  ],
+  "profession": [
+    1,
+    3
+  ],
+  "region": [
+    1,
+    3
+  ],
+  "route": [
+    2,
+    3
+  ],
+  "season": [
+    1
+  ],
+  "service": [
+    1,
+    2
+  ],
+  "theme": [
+    1,
+    2
+  ],
+  "time": [
+    1
+  ],
+  "travel_doc": [
+    1,
+    3
+  ],
+  "url": [
+    1
+  ],
+  "vaccination": [
+    1,
+    2
+  ],
+  "vehicle": [
+    1,
+    2
+  ],
+  "visa": [
+    1,
+    2
+  ]
+}
